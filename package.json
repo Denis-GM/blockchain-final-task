@@ -48,10 +48,14 @@
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
+    "@types/lodash": "^4",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10"
   },
   "engines": {
     "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
